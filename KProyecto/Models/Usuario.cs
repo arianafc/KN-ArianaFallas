@@ -5,7 +5,7 @@ using System.Web;
 
 namespace KProyecto.Models
 {
-    public class Autenticacion
+    public class Usuario
     {
         public string Identificacion { get; set; }
 

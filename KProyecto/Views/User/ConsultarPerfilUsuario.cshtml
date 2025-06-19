@@ -1,0 +1,10 @@
+﻿
+@model KProyecto.Models.Usuario
+
+@{
+    ViewBag.Title = "Principal";
+}
+
+<h2>Principal</h2>
+
+@Html.TextBoxFor(Model => Model.Correo, new { @type = "text", @class = "form-control form-control-lg", @placeholder = "Correo" })
